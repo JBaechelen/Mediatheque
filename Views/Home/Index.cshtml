@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Mediatheque.Models.Games>
+
+<div class="album py-5">
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                @foreach (var item in Model)
+                {
+                    @MesHelpers.GameList(item.Id, item.VisualImage, item.Title, item.Developer)
+                }
+            </table>
+        </div>
+    </div>
+</div>

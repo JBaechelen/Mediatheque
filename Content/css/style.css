@@ -1,0 +1,16 @@
+﻿body {
+    
+}
+
+#main {
+    margin-top: 60px;
+    
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: dimgray;
+    position: fixed;
+    bottom:0;
+}
